@@ -27,7 +27,6 @@ public class AboutMeTest {
 		alex.myGender='M';
 		alex.fullTimeStudent=false;
 		alex.aboutMe();
-		// Test
 
 	}
 
