@@ -13,10 +13,6 @@ public class Student {
 		System.out.println("This is all about Student");
 		}
 
-	public Student(String name) {
-		this.name = name;
-		System.out.println("NEW STUDENT NAME"+name);
-		}
 	
 	public Student(String name, char gender, int id, float grade, boolean isProgrammer) {
 		this.name = name;
