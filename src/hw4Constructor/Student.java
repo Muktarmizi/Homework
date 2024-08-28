@@ -20,15 +20,7 @@ public class Student {
 		this.id = id;
 		this.grade = grade;
 		this.isProgrammer = isProgrammer;
-		System.out.println("NEW STUDENT NAME:  "+ name +", STUDENT GENDER:  "+ gender +", STUDENT ID:   "+ id  +",  STUDENT GRADE:  "+ grade  +", JAVA PROGRAMMER:  "+ isProgrammer);
+		System.out.println("NEW STUDENT NAME:  "+ name +", STUDENT GENDER:  "+ gender +", STUDENT ID:   "+ id  +",  STUDENT GRADE:  "+ grade  +", JAVA PROGRAMMER ? Ans:  "+ isProgrammer);
 		}
 	
-	
-		
-	
-	
-	
-	
-	
-	
-}
+	}
