@@ -10,7 +10,7 @@ public class MyFamily {
 	public int myFamily() {
 		int sum=child1Age+child2Age+child3Age+child4Age;
 	System.out.println( "The sum of my childrens age is: " + sum);	
-		return 0;
+		return sum;
 		
 		}
 	

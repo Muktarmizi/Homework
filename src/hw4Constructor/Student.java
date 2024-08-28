@@ -17,7 +17,7 @@ public class Student {
 		this.name = name;
 		System.out.println("NEW STUDENT NAME"+name);
 		}
-
+	
 	public Student(String name, char gender, int id, float grade, boolean isProgrammer) {
 		this.name = name;
 		this.gender = gender;
