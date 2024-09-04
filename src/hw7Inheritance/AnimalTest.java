@@ -13,10 +13,10 @@ public class AnimalTest {
 		mammal.mammalinfo();
         mammal.animalinfo();
 		System.out.println("\n");
-
+       
 		Birds birds = new Birds();
-		birds.birdsinfo(); // child class.
-		birds.animalinfo(); // Parent class.
+		birds.birdsinfo();        // child class.
+		birds.animalinfo();      // Parent class.
 
 		System.err.println("\n");
 
