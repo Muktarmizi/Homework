@@ -11,7 +11,7 @@ public class AnimalTest {
 
 		Mammal mammal = new Mammal();
 		mammal.mammalinfo();
-
+        mammal.animalinfo();
 		System.out.println("\n");
 
 		Birds birds = new Birds();
@@ -22,26 +22,28 @@ public class AnimalTest {
 
 		Reptile reptile = new Reptile();
 		reptile.reptileinfo();
-
-		System.out.println("\n");
+        reptile.animalinfo();
+		
+        System.out.println("\n");
 		Dog dog = new Dog();
 		dog.doginfo();
-
+        dog.animalinfo();
 		System.out.println("\n");
+		
 		Snake snake = new Snake();
 		snake.Snakeinfo();
-
+        snake.animalinfo();
 		System.out.println("\n");
 
 		Robin robin = new Robin();
 		robin.robininfo();
-
+        robin.animalinfo();
 		System.out.println("\n");
 
 		BullDog bullDog = new BullDog();
 		bullDog.bulldoginfo();
-
-		System.out.println("\n");
+        bullDog.animalinfo();
+        System.out.println("\n");
 
 		Cobra cobra = new Cobra();
 		cobra.Cobrainfo();
