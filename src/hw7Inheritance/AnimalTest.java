@@ -2,7 +2,7 @@ package hw7Inheritance;
 
 public class AnimalTest {
 
-	public static void main(String[] args) {
+public static void main(String[] args) {
 
 		Animal animal = new Animal();
 		animal.animalinfo();
@@ -11,39 +11,40 @@ public class AnimalTest {
 
 		Mammal mammal = new Mammal();
 		mammal.mammalinfo();
-        mammal.animalinfo();
+		mammal.animalinfo();
 		System.out.println("\n");
-       
-		Birds birds = new Birds();
-		birds.birdsinfo();        // child class.
-		birds.animalinfo();      // Parent class.
 
-		System.err.println("\n");
+		Birds birds = new Birds();
+		birds.birdsinfo(); // child class.
+		birds.animalinfo(); // Parent class.
+
+		System.out.println("\n");
+		
 
 		Reptile reptile = new Reptile();
 		reptile.reptileinfo();
-        reptile.animalinfo();
-		
-        System.out.println("\n");
+		reptile.animalinfo();
+
+		System.out.println("\n");
 		Dog dog = new Dog();
 		dog.doginfo();
-        dog.animalinfo();
+		dog.animalinfo();
 		System.out.println("\n");
-		
+
 		Snake snake = new Snake();
 		snake.Snakeinfo();
-        snake.animalinfo();
+		snake.animalinfo();
 		System.out.println("\n");
 
 		Robin robin = new Robin();
 		robin.robininfo();
-        robin.animalinfo();
+		robin.animalinfo();
 		System.out.println("\n");
 
 		BullDog bullDog = new BullDog();
 		bullDog.bulldoginfo();
-        bullDog.animalinfo();
-        System.out.println("\n");
+		bullDog.animalinfo();
+		System.out.println("\n");
 
 		Cobra cobra = new Cobra();
 		cobra.Cobrainfo();
@@ -56,7 +57,6 @@ public class AnimalTest {
 		// This is Example of Hierarchical Inheritance.
 		// show single inheritance in (--Birds Class--)please check on it. exp:birds
 		// extends Animal.
-
 	}
 
 }
