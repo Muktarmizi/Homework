@@ -32,7 +32,7 @@ public static void main(String[] args) {
 		System.out.println("\n");
 
 		Snake snake = new Snake();
-		snake.Snakeinfo();
+		snake.snakeinfo();
 		snake.animalinfo();
 		System.out.println("\n");
 
@@ -47,7 +47,7 @@ public static void main(String[] args) {
 		System.out.println("\n");
 
 		Cobra cobra = new Cobra();
-		cobra.Cobrainfo();
+		cobra.cobrainfo();
 		cobra.animalinfo(); // An object is calling other methods because class extended.
 
 		// Cobra extends Snake , Snake extends Reptile,Reptile extends Animal.
