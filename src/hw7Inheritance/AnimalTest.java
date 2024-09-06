@@ -2,7 +2,7 @@ package hw7Inheritance;
 
 public class AnimalTest {
 
-public static void main(String[] args) {
+	public static void main(String[] args) {
 
 		Animal animal = new Animal();
 		animal.animalinfo();
@@ -19,11 +19,10 @@ public static void main(String[] args) {
 		birds.animalinfo(); // Parent class.
 
 		System.out.println("\n");
-		
 
 		Reptile reptile = new Reptile();
 		reptile.reptileinfo();
-		reptile.animalinfo();
+		reptile.animalinfo();  // single inheritance.
 
 		System.out.println("\n");
 		Dog dog = new Dog();
@@ -48,7 +47,9 @@ public static void main(String[] args) {
 
 		Cobra cobra = new Cobra();
 		cobra.cobrainfo();
-		cobra.animalinfo(); // An object is calling other methods because class extended.
+		cobra.snakeinfo();
+		cobra.reptileinfo();
+		cobra.animalinfo();// An object is calling other methods because class extended.
 
 		// Cobra extends Snake , Snake extends Reptile,Reptile extends Animal.
 		// Example of Multilevel Inheritance.
