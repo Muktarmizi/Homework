@@ -1,7 +1,8 @@
 package hw10Abstraction;
 
-public abstract class MedicalSchool extends NursingSchool implements LawSchool { // Explain in Line 5-7,
+public abstract class MedicalSchool extends NursingSchool implements LawSchool { // Explain in Line 5-8,
 	
+	// 2 keywords used to inheritance in this class. Extends and implements.
 	// "implements" keyword is used to inherit Interface in abstract class.
 	// an abstract class can inherit more than one Interface.
 	// an abstract class can not inherit a regular class or abstract class by implements keyword.

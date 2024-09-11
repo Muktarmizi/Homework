@@ -1,7 +1,8 @@
 package hw10Abstraction;
 
-public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool { //Explain in Line 5-10,
+public class ColumbiaUniversity extends MedicalSchool implements University, VocationalSchool { //Explain in Line 5-11,
 
+	// 2 keywords used to inheritance in this class. Extends and implements.
 	// "implements" keyword is used to inherit Interface in regular class.
 	// a regular class can inherit more than one Interface.
 	// a regular class can not inherit a regular class or abstract class by
