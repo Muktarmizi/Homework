@@ -3,8 +3,7 @@ package hw13Polymorphism;
 public class TestFamily {
 
 	public static void main(String[] args) {
-		System.out
-				.println("----------S----I----S----T------E-------R----<<<<<>>>>>>------A--------G-------E-----------");
+System.out.println("----------S----I----S----T------E-------R----<<<<<>>>>>>------A--------G-------E-----------");
 		Sister sister = new Sister();
 		sister.sister();
 		sister.sister(28, 30, 27);
@@ -14,8 +13,7 @@ public class TestFamily {
 
 		System.out.println(" \n \n");
 
-		System.out.println(
-				"---------N-------I-------E --------C---------E---<<<<<<>>>>>>----------A------G-------E-------");
+System.out.println("---------N-------I-------E --------C---------E---<<<<<<>>>>>>----------A------G-------E-------");
 		Niece niece = new Niece();
 		niece.sister();
 		niece.sister(2, 3, 7);

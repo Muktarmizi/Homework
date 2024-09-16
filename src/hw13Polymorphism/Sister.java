@@ -9,8 +9,7 @@ then see the sequence of data type in parameter If the sequence is different, th
 public class Sister {
 
 	public void sister() {
-		System.out.println(
-				"\n Below We Will Mention All Sister's Age Of This Four Familys---( Mizi---Munshi----Tapader---Mr.Carter )");
+System.out.println("\n Below We Will Mention All Sister's Age Of This Four Familys---( Mizi---Munshi----Tapader---Mr.Carter )");
 	}
 
 	public void sister(int age1, int age2, int age3) {
