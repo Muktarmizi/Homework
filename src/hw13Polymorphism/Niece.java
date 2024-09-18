@@ -7,7 +7,7 @@ package hw13Polymorphism;
     @override it will work as it is considered as the static method.
   
   * final method also Cannot @override from sister class,Final keyword doesn't allow any changes 
-     in the method, variable, class.no change is also ok if we want same as parent class method.
+     in the method, variable, class .
 */
 
 public class Niece extends Sister {
@@ -25,8 +25,8 @@ public class Niece extends Sister {
 	}
 
 	@Override
-	int sister(int age1, int age2, int age3, int age4) {
-		int total1 = age1 + age2 + age3 + age4 + 8;
+	int sister(int age1, int age2, int age3, String age4) {
+		int total1 = age1 + age2 + age3 + Integer.parseInt(age4) + 8;
 		System.out.println("\n Munshi Family Niece's  Age :" + total1);
 		return total1;
 	}

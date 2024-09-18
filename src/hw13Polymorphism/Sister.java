@@ -18,11 +18,11 @@ System.out.println("\n Below We Will Mention All Sister's Age Of This Four Famil
 
 	}
 
-	int sister(int age1, int age2, int age3, int age4) {
-		int total1 = age1 + age2 + age3 + age4;
+	int sister(int age1, int age2, int age3, String age4) {
+		int total1 = age1 + age2 + age3 + Integer.parseInt(age4);
 		System.out.println("\n Munshi Family Sister's Age :" + total1);
 		return total1;
-	}
+		}
 
 	public static void sister(int age1, int age2, int age3, String age4, int age5) {
 		int total2 = age1 + age2 + age3 + Integer.parseInt(age4) + age5;

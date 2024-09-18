@@ -22,11 +22,18 @@ public class TestInstitute {
 		cUniversity.anatomyLab();
 		cUniversity.hygien();
 		cUniversity.biochemistryLab();
+		cUniversity.maths();
+		cUniversity.aeronauticalInfo();
+		cUniversity.mechanicalLab();
+		cUniversity.library();
+		cUniversity.pharmacy();
 
 		
 		System.out.println("\n**************************************************************");
 
-		University university = new ColumbiaUniversity();
+		// University university = new University(); (it is interface thats why it wont initialized.)
+		
+		University university = new ColumbiaUniversity(); 
 
 		university.teacher();
 		university.classize();
@@ -45,6 +52,8 @@ public class TestInstitute {
 		
 		System.out.println("\n**************************************************************************");
 
+		//MedicalSchool mSchool = new MedicalSchool(); (it is Abstract Class thats why it wont initialized.)
+		
 		MedicalSchool mSchool = new ColumbiaUniversity();
 		mSchool.anatomyLab();
 		mSchool.biochemistryLab();

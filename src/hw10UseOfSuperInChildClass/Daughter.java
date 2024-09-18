@@ -8,19 +8,25 @@ public class Daughter extends Father {
 	// default constructor.
 
 	public Daughter() {
+		super();
 		System.out.println("----------------This is default constructor from daughter class-----------");
 		super.FamilyName = "Muktar's Family";
+		super.father();
+		super.fatherInfo("Amir", 67, 'M', false);
+		super.name="AMIR MIZI";
+		super.age=67;
+		super.sex='M';
+		super.usCitizen=false;
 		System.out.println("\n>>>>>>>>>>>>>>>>>>>>3rd Floor Tenents Family :" + FamilyName);
 	}
 
 	// parameterized constructor.
 
-	public Daughter(String birthMonth, int age) {
+	    public Daughter(String birthMonth, int age) {
 		super("Muktar Mizi", 35, 'M', true);
 		this.birthMonth = birthMonth;
 		this.age = age;
-
-		System.out.println("\nDaughter Birth Month :" + birthMonth + ", Daughter Current Age :" + age);
+      System.out.println("\nDaughter Birth Month :" + birthMonth + ", Daughter Current Age :" + age);
 
 	}
 
@@ -35,6 +41,8 @@ public class Daughter extends Father {
 	// parameterized method.
 
 	public void daughterInfo(String birthMonth, int age) {
+		super.name="AHMED MUNSHI";
+		super.age=71;
 		super.fatherInfo("Didar Munshi", 39, 'M', false);
 
 		System.out.println("\nDaughter Birth Month :" + birthMonth + ", Daughter Current Age :" + age);
