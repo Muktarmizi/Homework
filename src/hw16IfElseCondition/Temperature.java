@@ -8,28 +8,24 @@ public class Temperature {
 		Scanner scanner = new Scanner(System.in);
 
 		int todaysTemperature = scanner.nextInt();
-		int tem1 = 32;
-		int tem2 = 55;
-		int tem3 = 73;
-		int tem4 = 101;
-
-		if (todaysTemperature < tem1) {
+		
+		if (todaysTemperature < 32) {
 			System.out.println("\" is smaller than - 32\" ");
 			System.out.println("Freezing");
 		} 
-		else if (todaysTemperature < tem2) {
+		else if (todaysTemperature < 55) {
 			System.out.println("\" is smaller than - 55 \" ");
 			System.out.println("Pleasant");
 		} 
-		else if (todaysTemperature < tem3) {
+		else if (todaysTemperature < 73) {
 			System.out.println("\" is smaller than - 73 \" ");
 			System.out.println("Getting Warmer");
 		} 
-		else if (todaysTemperature < tem4) { // today's weather is 75.
+		else if (todaysTemperature < 101) { // today's weather is 75.
 			System.out.println("\" is smaller than - 101\" ");
 			System.out.println("Hot");
 		} 
-		else if (todaysTemperature >= tem4) {
+		else if (todaysTemperature >= 101) {
 			System.out.println("\" is greater than or equal to - 101\"");
 			System.out.println("Very Hot");
 		} 
@@ -37,6 +33,5 @@ public class Temperature {
 			System.out.println("Please put a valid temperature");
 		}
 		scanner.close();
-
-	}
+}
 }
