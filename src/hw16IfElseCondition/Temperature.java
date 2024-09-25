@@ -29,7 +29,7 @@ public class Temperature {
 			System.out.println("\" is smaller than - 101\" ");
 			System.out.println("Hot");
 		} 
-		else if (todaysTemperature > tem4 || todaysTemperature == tem4) {
+		else if (todaysTemperature >= tem4) {
 			System.out.println("\" is greater than or equal to - 101\"");
 			System.out.println("Very Hot");
 		} 
