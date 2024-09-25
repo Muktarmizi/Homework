@@ -12,8 +12,7 @@ public class DiabeticCondition {
 
 		if (hbA1c > 6.4) {
 			System.out.println("I am a diabetic patient");
-		} else if (hbA1c <= 6.4) {
-		}
+		}// else if (hbA1c <= 6.4) {}
 		if (hbA1c >= 5.7) { // nested if
 			System.out.println("I am a pre-diabetic patient");
 		} else if (hbA1c < 5.7) {
