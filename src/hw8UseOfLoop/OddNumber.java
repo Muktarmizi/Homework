@@ -9,7 +9,7 @@ public class OddNumber {
 
 		for (int i = s; i <= e; i++) {
 
-			if (i % 2 == 1) {
+			if (i % 2 != 0) {
 
 				System.out.println("Odd Number :" + i);
 
